@@ -1,6 +1,6 @@
-.idea/
+.idea/*
 .metadata/
 .recommenders/
-.settings/
+.settings/*
 RemoteSystemsTempFiles/
 .DS_Store
