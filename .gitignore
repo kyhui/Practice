@@ -7,3 +7,5 @@ target/
 RemoteSystemsTempFiles/
 .DS_Store
 Algorithms.iml
+.project
+.classpath

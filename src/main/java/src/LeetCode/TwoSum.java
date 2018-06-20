@@ -13,6 +13,27 @@ import java.util.function.Function;
  */
 public class TwoSum {
 
+    Set<Integer> values;
+
+    public TwoSum(){
+        values = new HashSet<>();
+    }
+
+    public void add(int v){
+        values.add(v);
+    }
+
+    public boolean find(int sum){
+        for(int key: values) {
+           if(values.contains(sum - key)){
+               return true;
+           }
+        }
+        return false;
+    }
+
+
+
     public static boolean sumExistsInUnsorted(int[] v, int sum){
         Set<Integer> vSet = new HashSet<>();
         for(int i = 0; i < v.length; i++){
