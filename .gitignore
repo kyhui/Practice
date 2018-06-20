@@ -3,6 +3,7 @@
 .recommenders/
 .settings/*
 bin/
+target/
 RemoteSystemsTempFiles/
 .DS_Store
 Algorithms.iml
